@@ -1,0 +1,233 @@
+/* Add Your Styles Here */
+
+body{
+    margin: 0;
+}
+.main-header{
+    background-image: url("../../../CSS_Complete_Files/img/image5.jpeg");
+    padding: 11px;
+
+}
+.main-header h2{
+    color: white;
+    font-size: 32px;
+    text-align: right;
+    font-family: "Lucida Calligraphy", sans-serif;
+}
+
+.main-nav{
+    background-color: black;
+    padding: 13px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.main-nav a:hover{
+    background-color: #907a61;
+    border-radius: 25px;
+    box-shadow: 0 0 5px white;
+}
+.main-nav a.active{
+    background-color: #9c5244;
+    border-radius: 25px;
+    box-shadow: 0 0 5px white;
+}
+
+.main-news-section{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+
+}
+
+.news-article {
+    width: 300px;
+    height: 400px;
+    border: 2px solid blue;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+}
+
+.news-article img{
+    width: inherit;
+}
+
+.zoom:hover{
+    transform: scale(1.2,1.2);
+}
+
+.news-article h1{
+    color: darkblue;
+}
+
+.main1-news-section{
+    width: 80%;
+    margin: auto;
+
+}
+
+.news1-srticle{
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightcyan;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 25px;
+    margin: 20px;
+
+
+}
+
+.zoom1{
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.zoom1 img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.news1-srticle img{
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+
+}
+
+.news1-srticle p{
+    color: blue;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.news1-srticle h1{
+    background: linear-gradient(45deg,#9c5244,black,#9c5244);
+    color: white;
+    padding: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.main-footer{
+    background-color: rgba(75%,25%,10%,0.8);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.gallary-section{
+    text-align: center;
+}
+
+.gallary-figure{
+    border: 2px solid darkred;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff2ec;
+
+}
+
+.gallary-figure img{
+    width: inherit;
+}
+
+.about-section{
+    width: 95%;
+}
+
+.about-article{
+    background-color: #382828;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+.contact-section{
+    background: white url("../images/image5.jpeg") no-repeat scroll bottom;
+    padding: 12px;
+}
+.contact-article{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccb499  ;
+}
+.contact-article h2{
+    color: #907a61;
+    font-size: 25px;
+}
+.input-field{
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    margin: 5px;
+    background: transparent;
+    color: white;
+    width: 200px;
+    border-bottom: 3px solid #907a61;
+}
+::placeholder{
+    color: #ccb499;
+}
+.contact-form textarea{
+    margin: 5px;
+    background: transparent;
+    border: 3px solid #907a61;
+    outline: none;
+    width: 180px;
+    border-radius: 5px;
+    color: white;
+}
+.contact-form #contact-btn{
+    background: linear-gradient(45deg,black,#907a61);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+}
+
+.image-zoom:hover{
+    transform: scale(1.2,1.2);
+
+}
+.contact-form #contact-btn:hover{
+    box-shadow: 0 0 5px #907a61;
+    cursor: pointer;
+}
+
